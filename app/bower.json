@@ -1,0 +1,27 @@
+{
+  "name": "nodeproject",
+  "main": "app.js",
+  "authors": [
+    "santhoshnaini <santosh.naini@xtreamit.com>"
+  ],
+  "description": "node project ui",
+  "keywords": [
+    "node",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.4.2",
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7"
+  }
+}

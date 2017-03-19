@@ -1,0 +1,23 @@
+     
+          <div class="panel-body">
+              <form id="loginform" name="loginform" role="form">
+               
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input id="login-username" type="text" class="form-control input-lg" name="username" value="" placeholder="User Name" ng-model="cred.username" required>
+                </div>
+                
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input id="login-password" ng-class="" type="password" class="form-control input-lg" name="password" placeholder="Password" ng-model="cred.password" required>
+                </div>
+                <div class="col-sm-6 nopadding">
+                    <input type="checkbox" ng-model="cred.isAutoSignIN" id="auto-sign"> <label for="auto-sign">Auto Sign In</label>
+                </div>
+                <div class="col-sm-6 nopadding text-right-sm">
+                    <input type="checkbox" ng-model="cred.isRemeberPassword" id="remember-password"> <label for="remember-password">Remember Me</label>
+                </div>
+                <div class="clearfix"></div>
+                <a ng-disabled="loginform.$invalid" class="btn btn-primary btn-block" ng-click="fromDirectiveFn(cred)">Sign In</a>
+            </form>
+     

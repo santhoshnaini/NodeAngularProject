@@ -1,0 +1,1 @@
+angular.module('nodeApp', ["ui.router"]).constant("appSetting", { ServerPath: 'http://localhost:8080/', MyName: "santhosh", isDebug: true });;
