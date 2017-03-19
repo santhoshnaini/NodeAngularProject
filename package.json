@@ -1,0 +1,13 @@
+{
+  "name": "firstpackage",
+  "version": "1.0.0",
+  "description": "This is our first package",
+  "main": "firstServer.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "morgan": "^1.8.1",
+    "q": "^1.4.1"
+  }
+}
